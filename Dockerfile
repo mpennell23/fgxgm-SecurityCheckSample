@@ -1,7 +1,5 @@
 FROM node:18.20.2
 
-From node:20.14-bookworm-slim	
-
 RUN npm install -g npm@9.1.3
 
 ADD package.json .
