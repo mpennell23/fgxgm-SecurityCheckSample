@@ -1,4 +1,4 @@
-FROM node:22.3.0-slim
+FROM node:22.14.0-slim
 
 RUN npm install -g npm@9.1.3
 
